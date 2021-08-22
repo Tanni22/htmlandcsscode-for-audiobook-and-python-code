@@ -1,0 +1,190 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+
+
+body {
+     background-image:url("ZChAX.gif");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;	 
+	  
+	
+    
+}
+
+#navbar {
+    width:150%;
+	 margin-top:-10 ;
+    background-color:white;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.9)
+}
+
+
+
+ul {
+    width: 80%;
+	margin: 0 auto;
+    padding: 0;
+    
+    
+}
+
+ul li {
+    
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    transition: .5s;
+    background-color:white;
+    
+   
+}
+
+ul li:hover {
+    background-color: turquoise;
+    color: black;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    
+}
+
+span {
+    color: turquoise;
+    
+}
+
+span:hover {
+    color: black;
+}
+
+.toggle {
+    
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    color: black;
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width:768px) {
+
+    .toggle {
+        display: block;
+    }
+
+    ul {
+        width: 100%;
+        display: none;
+        height: 50px;
+       
+        
+    }
+     ul li {
+         display: block;
+         text-align: center;
+     }
+.active {
+    display: block;
+}
+
+
+}
+p{
+	    margin-top:350px;
+		}
+     p.button a{
+	 font-size:25px;
+	     text-decoration:none;
+       border:4px outset#090;
+		padding:10px 20px;
+		
+}	
+    p.button a:hover{
+      background-color:#FFFFFF;
+	  color:red;
+}	  
+	 p.button a:active{
+          position:relative;
+           top: 2px;
+           border:4px inset #090;
+		   
+}
+ form {
+        width: 400px;
+        margin: auto;
+        margin-top: 50px;
+      }
+      input {
+        padding: 4px 10px;
+        border: 0;
+        font-size: 16px;
+      }
+      .search {
+	    height: 30px;
+        width: 300px;
+      }
+      .submit{
+	   width: 70px;
+        background-color: #1c87c9;
+        color: #ffffff;
+      }		   
+</style
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="navbar">
+            
+            <div class="toggle">
+                
+                <i class="fa fa-bars menu" aria-hidden="true"></i>
+            </div>
+            
+            <div id="menu">
+                <ul>
+                   
+                    <li><a href="">Language</a></li>
+                    <li><a href="file:///C:/Users/ASUS/Desktop/Css.css/audiobook.html">Audio Book</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+    </div>
+	
+      <body>
+   
+    <form action="/form/submit" method="GET">
+     <input type="text" name="text" class="search" placeholder="Search here!">
+	<button style="font-size:25px;color:red"><a href="file:///C:/Users/ASUS/Desktop/Css.css/singalspeechto text.html"<i class="fa fa-microphone"></i></a></button>
+      <input type="submit" name="submit" class="submit" value="Search">
+       
+      
+    </form>
+   <script src="https://use.fontawesome.com/28ee112ee3.js"></script></a>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    $('.menu').click(function () {
+        $('ul').toggleClass('active');
+    })
+    })
+
+    </script>
+</body>
